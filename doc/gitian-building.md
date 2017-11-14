@@ -315,7 +315,7 @@ Clone the git repositories for cougarcoin and Gitian.
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
 git clone https://github.com/cougarcoin-project/cougarcoin
-git clone https://github.com/cougarcoin-project/gitian.sigs.ltc.git
+git clone https://github.com/cougarcoin-project/gitian.sigs.CGC.git
 ```
 
 Setting up the Gitian image
@@ -480,5 +480,5 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
-[cougarcoin-project/gitian.sigs.ltc](https://github.com/cougarcoin-project/gitian.sigs.ltc/) repository, or if that's not possible create a pull
+[cougarcoin-project/gitian.sigs.CGC](https://github.com/cougarcoin-project/gitian.sigs.CGC/) repository, or if that's not possible create a pull
 request. You can also mail the files to thrasher (thrasher@addictionsofware.com) and he will commit them.

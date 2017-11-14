@@ -747,7 +747,7 @@ bool WalletModel::hdEnabled() const
     return wallet->IsHDEnabled();
 }
 
-int WalletModel::getDefaultConfirmTarget() const
+int WalletModel::getDefauCGConfirmTarget() const
 {
     return nTxConfirmTarget;
 }
