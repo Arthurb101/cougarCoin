@@ -137,7 +137,7 @@ void PaymentServer::LoadRootCAs(X509_STORE* _store)
 
         certList = QSslCertificate::fromPath(certFile);
         // Use those certificates when fetching payment requests, too:
-        QSslSocket::setDefauCGCaCertificates(certList);
+        QSslSocket::setDefaultCaCertificates(certList);
     } else
         certList = QSslSocket::systemCaCertificates();
 

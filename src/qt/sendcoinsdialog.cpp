@@ -203,7 +203,7 @@ void SendCoinsDialog::setModel(WalletModel *_model)
             settings.remove("nSmartFeeSliderPosition");
         }
         if (settings.value("nConfTarget").toInt() == 0)
-            ui->confTargetSelector->setCurrentIndex(getIndexForConfTarget(model->getDefauCGConfirmTarget()));
+            ui->confTargetSelector->setCurrentIndex(getIndexForConfTarget(model->getDefaultConfirmTarget()));
         else
             ui->confTargetSelector->setCurrentIndex(getIndexForConfTarget(settings.value("nConfTarget").toInt()));
     }

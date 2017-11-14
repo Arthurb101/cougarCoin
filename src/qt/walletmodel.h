@@ -214,7 +214,7 @@ public:
 
     bool hdEnabled() const;
 
-    int getDefauCGConfirmTarget() const;
+    int getDefaultConfirmTarget() const;
 
     bool getDefaultWalletRbf() const;
 
